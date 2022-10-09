@@ -1,4 +1,4 @@
-package automation;
+package WebElements;
 
 import static org.junit.Assert.assertTrue;
 

@@ -1,4 +1,4 @@
-package automation;
+package WebElements;
 
 import java.util.concurrent.TimeUnit;
 
@@ -36,10 +36,17 @@ public class WebElements {
 		//Login button
 		driver.findElement(By.xpath("//button")).click();
 		
+		//field 1: Admin using Xpath
+		driver.findElement(By.xpath("//a/span")).click();
 		
+		//field 2: Leave using link text
+		driver.findElement(By.linkText("Leave")).click();
 		
+		//field 3: PIM by link text
+		driver.findElement(By.linkText("PIM")).click();
 		
-		
+		//field 4: Time by link text
+		driver.findElement(By.linkText("Time")).click();
 
 	}
 
